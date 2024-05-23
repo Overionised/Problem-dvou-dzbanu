@@ -49,12 +49,12 @@ sudo cp dzban /usr/bin/
 ## Run
 ### option 1 usecase
 ~~~ shell
-./dzban
+./dzban [velikost dzbanu1] [velikost dzbanu2]
 ~~~
 
 ### option 2 usecase
 ~~~ shell
-dzban
+dzban [velikost dzbanu1] [velikost dzbanu2]
 ~~~
 
 ## uzivaní
