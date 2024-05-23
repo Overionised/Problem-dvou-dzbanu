@@ -9,14 +9,23 @@ using namespace std;
 int kapacita[2];
 int dzban[2];
 
+void print(){
+	if (dzban[0]<10){
+	cout << "dzban1 = 0" << dzban[0] << "          " << "dzban2 = " << dzban[1] <<"  \n";
+	}
+	else{
+        cout << "dzban1 = " << dzban[0] << "          " << "dzban2 = " << dzban[1] <<"  \n";
+        }
+}
+
 void nalit() {
     dzban[0] += kapacita[0];
-    cout << "dzban1 = " << dzban[0] << endl << "dzban2 = " << dzban[1] << endl << endl;
+    print();
 }
 
 void vylit() {
     dzban[1] = 0;
-    cout << "dzban1 = " << dzban[0] << endl << "dzban2 = " << dzban[1] << endl << endl;
+    print();
 }
 
 void prelit() {
@@ -27,7 +36,7 @@ void prelit() {
         dzban[1] += dzban[0];
         dzban[0] = 0;
     }
-    cout << "dzban1 = " << dzban[0] << endl << "dzban2 = " << dzban[1] << endl << endl;
+    print();
 }
 
 int main(int argc, char* argv[]) {
@@ -70,4 +79,3 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
-
