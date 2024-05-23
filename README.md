@@ -57,7 +57,7 @@ sudo cp dzban /usr/bin/
 dzban
 ~~~
 
-##uzivaní
+## uzivaní
 ~~~ shell
 dzban [velikost dzbanu1] [velikost dzbanu2]
 ~~~
