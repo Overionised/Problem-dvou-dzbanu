@@ -30,8 +30,9 @@ Dzban 1 ma 1 l --- dzban 2 ma 7 l // Vylijeme ze džbánu 2 vodu
 Dzban 1 ma 1 l --- dzban 2 ma 0 l // Výsledný
 ~~~
 
-## Build
 
+## Build
+## !NO MAC OR WINDOWS SUPPORT!
 ### option 1 dočasná instalace
 ~~~ shell
 git clone https://github.com/Overionised/Problem-dvou-dzbanu.git
