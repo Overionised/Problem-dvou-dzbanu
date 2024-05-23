@@ -32,7 +32,7 @@ Dzban 1 ma 1 l --- dzban 2 ma 0 l // Výsledný
 
 ## Build
 
-### option 1 dočasné
+### option 1 dočasná instalace
 ~~~ shell
 git clone https://github.com/Overionised/Problem-dvou-dzbanu.git
 cd Problem-dvou-dzbanu
