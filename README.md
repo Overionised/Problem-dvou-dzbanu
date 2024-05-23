@@ -29,3 +29,31 @@ Dzban 1 ma 3 l --- dzban 2 ma 5 l // Naplníme džbán 1
 Dzban 1 ma 1 l --- dzban 2 ma 7 l // Vylijeme ze džbánu 2 vodu
 Dzban 1 ma 1 l --- dzban 2 ma 0 l // Výsledný
 ~~~
+
+## Build
+
+### option 1 dočasné
+~~~ shell
+git clone https://github.com/Overionised/Problem-dvou-dzbanu.git
+cd Problem-dvou-dzbanu
+g++ main.cpp -o dzban
+~~~
+
+### option 2 instalace
+~~~ shell
+git clone https://github.com/Overionised/Problem-dvou-dzbanu.git
+cd Problem-dvou-dzbanu
+g++ main.cpp -o dzban
+sudo cp cbird /usr/bin/
+~~~
+## Run
+### option 1 usecase
+~~~ shell
+./dzban
+~~~
+
+### option 2 usecase
+~~~ shell
+dzban
+~~~
+
