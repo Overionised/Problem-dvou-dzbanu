@@ -44,7 +44,7 @@ g++ main.cpp -o dzban
 git clone https://github.com/Overionised/Problem-dvou-dzbanu.git
 cd Problem-dvou-dzbanu
 g++ main.cpp -o dzban
-sudo cp cbird /usr/bin/
+sudo cp dzban /usr/bin/
 ~~~
 ## Run
 ### option 1 usecase
@@ -55,5 +55,10 @@ sudo cp cbird /usr/bin/
 ### option 2 usecase
 ~~~ shell
 dzban
+~~~
+
+##uzivaní
+~~~ shell
+dzban [velikost dzbanu1] [velikost dzbanu2]
 ~~~
 
